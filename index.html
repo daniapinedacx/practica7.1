@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Mi formulario</title>
+    <link rel="stylesheet" href="principal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Righteous&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Contáctame, soy: Dania Regina Pineda Benigno</h1>
+
+    <form method="GET">
+        <fieldset>
+            <legend><h1>Datos Generales</h1></legend>
+
+            <h3>Nombre: <input type="text" name="nombre"></h3>
+            <h3>Apellidos: <input type="text" name="apellidos"></h3> 
+            <h3>Correo: <input type="email" name="correo"></h3>
+
+            <h1>Género</h1>
+            <h3><input type="radio" name="genero" value="masculino"> Masculino</h3>
+            <h3><input type="radio" name="genero" value="femenino"> Femenino</h3>
+
+            <h1>Hobbies</h1>
+            <h3><input type="checkbox" name="hobbie1"> Nadar</h3>
+            <h3><input type="checkbox" name="hobbie2"> Correr</h3>
+            <h3><input type="checkbox" name="hobbie3"> Música</h3>
+            <h3><input type="checkbox" name="hobbie4" checked> Todas las anteriores</h3>
+
+            <h1>Estado Civil</h1>
+            <select name="edocivil">
+                <option disabled selected>-- Seleccione una opción --</option>
+                <option value="casado">Casado</option>
+                <option value="soltero">Soltero</option>
+                <option value="divorciado">Divorciado</option>
+                <option value="viudo">Viudo</option>
+                <option value="union">Unión Libre</option>
+            </select>
+
+            <br><br>
+           <input type="image" src="enviar.png" width="130" height="33">
+        </fieldset>
+    </form>
+
+</body>
+</html>
